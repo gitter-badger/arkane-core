@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>ArkaneSystems.Arkane.Exceptions</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>0.1</Version>
+    <Authors>Alistair J. R. Young</Authors>
+    <Company>Arkane Systems</Company>
+    <Product>Arkane CCL</Product>
+    <Description>Exception classes and related functionality for the Arkane Systems core class library.</Description>
+    <Copyright>Copyright (c) Arkane Systems 2012-2018.</Copyright>
+    <PackageProjectUrl>https://github.com/arkane-systems/arkane-core</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/arkane-systems/arkane-core/blob/master/LICENSE</PackageLicenseUrl>
+    <RepositoryUrl>https://github.com/arkane-systems/arkane-core</RepositoryUrl>
+    <PackageTags>arkane exceptions</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>arkane.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+    <DebugType>full</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>TRACE;DEBUG;JETBRAINS_ANNOTATIONS;NETSTANDARD;NETSTANDARD2_0</DefineConstants>
+  </PropertyGroup>
+
+</Project>
