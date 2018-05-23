@@ -68,5 +68,23 @@ namespace ArkaneSystems.Arkane.Exceptions.Properties {
                 return ResourceManager.GetString("CannotHappenException_Default", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to This functionality must be implemented by a subclass of this base class..
+        /// </summary>
+        internal static string SubclassResponsibilityException_Default {
+            get {
+                return ResourceManager.GetString("SubclassResponsibilityException_Default", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to An invalid type argument was specified..
+        /// </summary>
+        internal static string TypeArgumentException_Default {
+            get {
+                return ResourceManager.GetString("TypeArgumentException_Default", resourceCulture);
+            }
+        }
     }
 }

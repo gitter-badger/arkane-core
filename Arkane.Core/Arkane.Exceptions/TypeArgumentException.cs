@@ -17,6 +17,8 @@ using System ;
 using System.Runtime.Serialization ;
 using System.Security.Permissions ;
 
+using ArkaneSystems.Arkane.Exceptions.Properties ;
+
 using JetBrains.Annotations ;
 
 #endregion
@@ -43,7 +45,7 @@ namespace ArkaneSystems.Arkane.Exceptions
     {
         /// <inheritdoc />
         public TypeArgumentException ()
-            : base ("An invalid type argument was specified.")
+            : base (Resources.TypeArgumentException_Default)
         { }
 
         /// <inheritdoc />

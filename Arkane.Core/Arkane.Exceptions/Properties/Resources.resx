@@ -101,4 +101,10 @@
 	<data name="CannotHappenException_Default" xml:space="preserve">
     <value>Something happened which cannot happen.</value>
   </data>
+	<data name="TypeArgumentException_Default" xml:space="preserve">
+    <value>An invalid type argument was specified.</value>
+  </data>
+	<data name="SubclassResponsibilityException_Default" xml:space="preserve">
+    <value>This functionality must be implemented by a subclass of this base class.</value>
+  </data>
 </root>
